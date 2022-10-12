@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+.mainbox{
+    border:1px solid grey;
+    width: 400px;
+    height: 400px;
+    padding-bottom: 15px;
+    margin: auto;
+    margin-top: 50px;
+    background-color:rgb(231, 226, 226);
+    
+}
+
+        .textbox{
+            border-radius: 1px;
+            border: solid grey 0.5px;
+            width: 360px;
+            height: 30px;
+            background-color: rgb(228, 225, 220);
+            
+
+        }
+ 
+#learn{
+    color: rgb(118, 118, 122);
+    text-decoration: underline;
+    padding-left: 290px;
+
+
+}
+#forgot{
+    color:rgb(185, 185, 192);
+    font-size: small;
+    padding-left: 265px;
+
+}
+#User{
+    
+    font-size:small;
+    padding-right: 295px;
+
+}.Remeber{
+    margin-left: -260px;
+    
+    
+}
+
+        .button{
+            color:white;
+            background-color: orangered;
+            border: none;
+            font-size: larger;
+            width: 360px;
+            height: 30px;
+            border-radius: 5px; 
+                    
+        }
+        .facebook{
+            color:white;
+            background-color:blue;
+            border: none;
+            font-size: larger;
+            width: 360px;
+            height: 30px;
+            border-radius: 5px; 
+
+        }
+        .Google{
+             color:white;
+            background-color:red;
+            border: none;
+            font-size: larger;
+            width: 360px;
+            height: 30px;
+            border-radius: 5px; 
+        }
+        body{
+            background:url(web.jpg)no-repeat;
+            background-size:cover;
+            align-items:left;
+            justify-content: center;
+            display: flex;
+            align-content: left;
+            padding-left: 300px;
+
+            
+        }
+        
+        
+        </style>
+</head>
+<body>
+    
+    <center>
+        <div class="mainbox">
+            <header><h2>LOGIN TO COLORLIB</h2></header>
+            <br>
+            <div id="User">User Name</div>
+  
+       
+        <input type="text"placeholder="your-email@gmail.com"class="textbox">
+
+        <br>
+        <div id="User">Password</div>
+        <input type="password"placeholder="Your Password"class="textbox"><br>
+       <div>
+        <input type="checkbox" class="Remeber" onclick="myfunction()">Remember me 
+        <div id="learn">
+            Forgot Password
+        </div><br>
+    </div>
+        <input type="button"name="Login" value="Login" class="button"><br>
+        <div>or</div><br>
+        <input type="button"name="facebook" value="facebook" class="facebook"><br><br>
+        <input type="button"name="Google" value="Google" class="Google"><br>
+<br>
+
+</div>
+</center>
+</body>
+</html>
